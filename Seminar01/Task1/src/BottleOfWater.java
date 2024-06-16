@@ -1,5 +1,3 @@
-package impl;
-
 import java.time.LocalDate;
 
 public final class BottleOfWater extends Product {
@@ -35,7 +33,7 @@ public final class BottleOfWater extends Product {
 
     @Override
     public String toString() {
-        return "impl.BottleOfWater{" +
+        return "BottleOfWater{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 ", releaseDate=" + releaseDate +

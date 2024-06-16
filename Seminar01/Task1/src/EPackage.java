@@ -1,5 +1,3 @@
-package impl;
-
 public enum EPackage {
     PLASTIC("пластик"), GLASS("стекло");
 

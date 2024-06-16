@@ -1,5 +1,3 @@
-package impl;
-
 import java.util.List;
 
 public class WaterVendingMachine extends VendingMachine {
