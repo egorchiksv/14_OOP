@@ -36,6 +36,5 @@ public class Main {
         shop.giveOrders();
         shop.releaseFromQueue();
         shop.releaseFromMarket(hm1);
-
     }
 }
