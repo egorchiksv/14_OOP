@@ -1,8 +1,12 @@
 package model;
 
-public class Teatcher extends User<Double>{
-    @Override
-    public Double get() {
-        return 1.2;
+import java.time.LocalDate;
+
+public class Teatcher extends User{
+
+    public Teatcher (int id, String name, String lastName) {
+        this.id = id;
+        this.name = name;
+        this.lastName = lastName;
     }
 }

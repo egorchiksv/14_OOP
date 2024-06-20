@@ -18,7 +18,7 @@ public class StudentGroupService {
     }
 
     public List<Student> sort() {
-//        Collections.sort(studentGroup.students);
+        Collections.sort(studentGroup.students);
         return studentGroup.students;
     }
 }

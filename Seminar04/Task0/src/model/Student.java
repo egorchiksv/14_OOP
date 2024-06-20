@@ -2,14 +2,16 @@ package model;
 
 import java.time.LocalDate;
 
-public class Student extends User<Student>{
-    private int id;
-    private String name;
-    private String lastName;
-    private LocalDate birthday;
+public class Student extends User{
+
+    public Student(int id, String name, String lastName) {
+        this.id = id;
+        this.name = name;
+        this.lastName = lastName;
+    }
 
     @Override
-    public Student get() {
-        return null;
+    public String toString() {
+        return String.format("Student [id=%d, name=%s, lastName=%s]", id, name, lastName);
     }
 }
