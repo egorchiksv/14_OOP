@@ -1,14 +1,11 @@
 package view;
 
-import model.Teatcher;
-
-import java.util.Collections;
+import model.Teacher;
 import java.util.List;
 
-public class TeacherView implements UserView<Teatcher> {
+public class TeacherView implements UserView<Teacher> {
     @Override
-    public void sendOnConsole(List<Teatcher> teachers) {
-        Collections.sort(teachers);
+    public void sendOnConsole(List<Teacher> teachers) {
         System.out.println(teachers);
     }
 }
