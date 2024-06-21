@@ -1,9 +1,8 @@
 import controller.StudentController;
-import controller.StudentGroupController;
-import controller.UserController;
+import controller.TeacherController;
 import model.Student;
-import model.StudentGroup;
-import service.StudentGroupService;
+import model.Teacher;
+import service.TeacherService;
 
 import java.util.List;
 
@@ -11,7 +10,13 @@ public class Main {
     public static void main(String[] args) {
         new StudentController()
                 .sendOnConsole(List.of(new Student(1, "Sasha", "Ivanov"),
-                        new Student(1, "Sasha", "Ivanov")));
+                        new Student(2, "Sasha", "Ivanov")));
+
+        new TeacherController()
+                .sendOnConsole(List.of(new Teacher(1, "Егений", "Петров"),
+                        new Teacher(2, "Руслан", "Иванов")));
+
+        System.out.println(new TeacherService().createTeacher(3, "Алексей", "Федеров"));
 
     }
 
