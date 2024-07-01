@@ -1,0 +1,8 @@
+июл. 01, 2024 3:18:26 PM view.CalculatorView start
+INFO: Суммирование чилсел(1,1) + (2,2) Результат: a=3.0, bi=3.0
+июл. 01, 2024 3:18:35 PM view.CalculatorView start
+INFO: Разность чилсел(1,1) - (2,2) Результат: a=3.0, bi=3.0
+июл. 01, 2024 3:18:41 PM view.CalculatorView start
+INFO: Умножение чилсел(1,1) * (2,2) Результат: a=3.0, bi=3.0
+июл. 01, 2024 3:18:49 PM view.CalculatorView start
+INFO: Деление чилсел(1,1) / (2,2) Результат: a=3.0, bi=3.0
