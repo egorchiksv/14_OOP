@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=AqG14VAbs68
+https://github.com/blckRbbit/oop-patterns-v2.git
+https://github.com/blckRbbit/oop-patterns-with-solutions.git
+refactoring guru
+
